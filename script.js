@@ -44,7 +44,7 @@ const getWordInfo = async (word)=>{
             resultdiv.innerHTML += `<span> Not Found</span>`
         }else{
             for(let i =0; i < definitions.synonyms.length;i++){
-                resultdiv.innerHTML += `<li>${definitions.antonyms[i]}</li>`;
+                resultdiv.innerHTML += `<li>${definitions.synonyms[i]}</li>`;
             }
         }
 
